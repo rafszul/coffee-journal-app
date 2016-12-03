@@ -18,6 +18,7 @@
         "mobile": false,
         "styles": [
             "../node_modules/foundation-sites/dist/foundation-flex.css",
+            "../node_modules/foundation-icons/foundation-icons.css",
             "styles.scss"
         ],
         "scripts": [
