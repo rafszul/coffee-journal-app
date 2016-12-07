@@ -1,4 +1,20 @@
-# PomegranateChatNg2MdFire
+# pomegranate-chat-ng2-md-fire
+
+pomegranate-chat-ng2-md-fire is a clone of kick-off-ng2-foundation6 which is packed with all that stuff that usually comes with [angular-cli](https://cli.angular.io/)'s `ng new ...` command:
+
+- [typescript](https://www.typescriptlang.org/) and
+- [webpack](https://webpack.github.io/). already mentioned
+- [foundation 6](http://foundation.zurb.com/sites.html) and
+- [scss](http://sass-lang.com/). baked in tests by:
+- [jasmine](https://jasmine.github.io/),
+- [karma](https://karma-runner.github.io/1.0/index.html),
+- [istanbul](https://istanbul.js.org/) for coverage and 
+- [protractor](http://www.protractortest.org/#) for e2e tests and
+- loads of other stuff so check out [package.json](/blob/master/package.json) to get better idea about what's in.
+
+it has material installed as well
+
+---
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
 
