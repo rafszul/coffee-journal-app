@@ -26,9 +26,16 @@
 </div>
  <div class="row">
         <ul class="header-subnav">
-            <li><a href="#">Take Action!</a></li>
-            <li><a href="#" class="is-active">Carpe Diem!</a></li>
-            <li><a target="_blank" href="http://zurb.com/responsive">Just do it!</a></li>
+            <li><a routerLink="/contact" routerLinkActive="is-active">contact</a></li>
+            <li><a routerLink="/home" routerLinkActive="is-active" class="is-active">home</a></li>
+            <!-- <li><a target="_blank" href="http://zurb.com/responsive">Just do it!</a></li> -->
         </ul>
+    </div>
+    <div class="small-6 medium=1 large-2 columns">
+    </div>
+    <div class="small-12 medium=10 large-8 columns">
+        <router-outlet></router-outlet>
+    </div>
+    <div class="small-6 medium=1 large-2 columns">
     </div>
 </header>
