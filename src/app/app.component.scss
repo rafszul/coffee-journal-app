@@ -1,9 +1,38 @@
+$app-main-font: 'Open Sans';
 $header-bg: #ffffff;
 $subnav-link-padding: 0.9rem;
-$subnav-font-size: 0.75rem;
+$subnav-font-size: 1rem;
 $subnav-link-opacity: 0.15;
 $header-height: 2.5rem;
 $transition: all .35s ease-in-out;
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5 {
+    font-family: $app-main-font;
+    font-size: $subnav-font-size + 0.5rem;
+    color: #474747;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.app-body {
+  text-align: center;
+  background: $header-bg;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  padding-top: $header-height;
+  padding-bottom: $header-height + ($subnav-link-padding * 2 + $subnav-font-size - 0.15rem);
+  
+  .headline {
+    color: #000000;
+  }
+}
 
 .header {
   text-align: center;
