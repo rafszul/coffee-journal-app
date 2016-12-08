@@ -1,5 +1,7 @@
 # pomegranate-chat-ng2-md-fire
 
+[![](https://pomegranateuk-c547b.firebaseapp.com/assets/pomegranate-logo-002-header.svg)](https://pomegranateuk-c547b.firebaseapp.com)
+
 pomegranate-chat-ng2-md-fire is a clone of kick-off-ng2-foundation6 which is packed with all that stuff that usually comes with [angular-cli](https://cli.angular.io/)'s `ng new ...` command:
 
 - [typescript](https://www.typescriptlang.org/) and
