@@ -45,8 +45,25 @@ packed with all that stuff that usually comes with [angular-cli](https://cli.ang
    - lost
 - added app-routing.module
 ```
+---
 
+### kick-off-ng2-fire-md
 
+```
+*the philosophy and the title*
+
+ - social media login (facebook, twitter, google+ and github)
+ - personal 'todo' item list
+ - chat with other users
+
+```
+
+### coffee-fund-ng2-md-fire
+
+```
+*the title and the philosophy*
+
+```
 
 ---
 
@@ -79,3 +96,121 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+---
+
+## used libraries, guides, etc.
+
+### libraries
+ * [angular 2](https://github.com/angular/angular)
+ * [material design for angular 2](https://github.com/angular/material2)
+ * [angularfire2](https://github.com/angular/angularfire2)
+ * [angular2-moment](https://github.com/urish/angular2-moment)
+ * [angular-cli](https://github.com/angular/angular-cli)
+ 
+### guides
+ * [angular 2 style guide](https://angular.io/docs/ts/latest/guide/style-guide.html)
+ 
+### other resources
+ * [firebase](https://firebase.google.com/)
+ * [material design](https://www.google.com/design/spec/material-design/)
+
+---
+
+## installation
+first of all you have to install ```npm``` and ```node.js``` to your box. installation instructions can
+be found [here](https://github.com/joyent/node/wiki/installing-node.js-via-package-manager). 
+
+note that ```node.js 6.x``` is required.
+
+```bash
+$ git clone https://github.com/projekt-kreatywa/kick-off-ng2-fire-md.git
+$ cd kick-off-ng2-fire-md
+
+# install the project's dependencies with npm
+$ npm install
+
+# fast install (via yarn, https://yarnpkg.com)
+$ yarn install  # or yarn
+```
+---
+
+## firebase configuration
+see `/src/app/config/config.ts_example` file and copy it to `/src/app/config/config.ts` file and make necessary changes to it. note that you need a [firebase account](https://firebase.google.com/) to get all necessary config values.
+
+if you are not familiar with firebase and/or don't have a firebase developer account, sign up quickly with your google id here: [https://firebase.google.com/](https://firebase.google.com/).
+
+after you have created new application you will need to make some [security rules](https://firebase.google.com/docs/database/security/quickstart) 
+for the used data storage. below is configuration that this demo application uses, so you can use the same within your 
+application.
+
+```
+{
+    "rules": {
+      "messages": {
+          ".write": "auth !== null",
+          ".read": "auth !== null"
+      },
+      "todos": {
+        "$uid": {
+          // grants write access to the owner of this user account whose uid must exactly match the key ($uid)
+          ".write": "auth !== null && auth.uid === $uid",
+          // grants read access to any user who is logged in with facebook
+          ".read": "auth !== null && auth.uid === $uid"
+        }
+      }
+    }
+}
+```
+
+these rules ensure that 'todo' items are show only to user who made those. also chat messages requires that user is
+logged in to read / write those.
+
+---
+
+## development with angular-cli
+to start developing in the project run:
+
+```bash
+$ npm start
+# or
+$ ng serve
+```
+
+then head to `http://localhost:4200` in your browser.
+
+### code scaffolding
+run `ng generate component component-name` to generate a new component. you can also use `ng generate directive/pipe/service/class`.
+
+### build
+run `ng build` to build the project. the build artifacts will be stored in the `dist/` directory. use the `-prod` flag for a production build.
+
+### tests
+
+#### unit tests
+to run tests run:
+
+```bash
+$ npm test
+# or
+$ ng test
+```
+
+#### e2e tests
+to run tests run:
+
+```bash
+$ npm run e2e
+# or
+$ ng e2e
+```
+
+### deploying to github pages
+
+run `ng github-pages:deploy` to deploy to github pages.
+
+### further help
+
+to get more help on the `angular-cli` use `ng --help` or check out the [angular-cli readme](https://github.com/angular/angular-cli/blob/master/readme.md).
+
+---
