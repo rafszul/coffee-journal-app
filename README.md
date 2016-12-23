@@ -31,8 +31,6 @@ packed with all that stuff that usually comes with [angular-cli](https://cli.ang
 - [protractor](http://www.protractortest.org/#) for e2e tests and
 - loads of other stuff so check out [package.json](/blob/master/package.json) to get better idea about what's in.
 ```
----
-
 ### pomegranate-chat-ng2-md-fire:
 
 ```
@@ -45,8 +43,6 @@ packed with all that stuff that usually comes with [angular-cli](https://cli.ang
    - lost
 - added app-routing.module
 ```
----
-
 ### kick-off-ng2-fire-md
 
 ```
@@ -57,11 +53,12 @@ packed with all that stuff that usually comes with [angular-cli](https://cli.ang
  - chat with other users
 
 ```
-
 ### coffee-fund-ng2-md-fire
 
 ```
 *the title and the philosophy*
+this is a roll back to somewhat more familiar foundation6 flex-grid
+after using kick-off-ng2-fire-md i found pomegranate-chat-ng2-md-fire very refreshing
 
 ```
 
