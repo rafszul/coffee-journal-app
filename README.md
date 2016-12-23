@@ -1,8 +1,25 @@
-# pomegranate-chat-ng2-md-fire
+# coffee-journal-app
 
 [![](https://pomegranateuk-c547b.firebaseapp.com/assets/pomegranate-logo-002-header.svg)](https://pomegranateuk-c547b.firebaseapp.com)
 
-pomegranate-chat-ng2-md-fire is a clone of kick-off-ng2-foundation6 which is packed with all that stuff that usually comes with [angular-cli](https://cli.angular.io/)'s `ng new ...` command:
+coffee-journal-app - built with angular 2, material design, foundation6 for flex and firebase - splash page - subscription form - chat client
+
+the repo kicked off from pomegranate-chat-ng2-md-fire which was a clone of kick-off-ng2-foundation6 (added routing and some refactoring)
+
+---
+
+## change log:
+
+kick-off projects might have a lot of issues of various kinds. use them at your own risk and read the licence
+
+below in the change-log short listings of the functionalities of the web app at different stages of development
+
+starting with:
+
+### kick-off-ng2-foundation6:
+
+```
+packed with all that stuff that usually comes with [angular-cli](https://cli.angular.io/)'s `ng new ...` command:
 
 - [typescript](https://www.typescriptlang.org/) and
 - [webpack](https://webpack.github.io/). already mentioned
@@ -13,8 +30,23 @@ pomegranate-chat-ng2-md-fire is a clone of kick-off-ng2-foundation6 which is pac
 - [istanbul](https://istanbul.js.org/) for coverage and 
 - [protractor](http://www.protractortest.org/#) for e2e tests and
 - loads of other stuff so check out [package.json](/blob/master/package.json) to get better idea about what's in.
+```
+---
 
-it has material installed as well
+### pomegranate-chat-ng2-md-fire:
+
+```
+- added material with hammerjs
+- firebase with angularfire2
+- four components 
+   - chat,
+   - contact,
+   - home,
+   - lost
+- added app-routing.module
+```
+
+
 
 ---
 
