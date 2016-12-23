@@ -18,7 +18,6 @@
         "mobile": false,
         "styles": [
             "../node_modules/foundation-sites/dist/css/foundation-flex.css",
-            "../src/assets/styles/coffee-journal-app-theme.scss",
             "styles.scss"
         ],
         "scripts": [
