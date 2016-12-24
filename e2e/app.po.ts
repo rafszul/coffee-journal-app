@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class PomegranateChatNg2MdFirePage {
+export class CoffeeJournalAppPage {
   navigateTo() {
     return browser.get('/');
   }

@@ -1,10 +1,10 @@
-import { PomegranateChatNg2MdFirePage } from './app.po';
+import { CoffeeJournalAppPage } from './app.po';
 
-describe('pomegranate-chat-ng2-md-fire App', function() {
-  let page: PomegranateChatNg2MdFirePage;
+describe('coffee-journal-app App', function() {
+  let page: CoffeeJournalAppPage;
 
   beforeEach(() => {
-    page = new PomegranateChatNg2MdFirePage();
+    page = new CoffeeJournalAppPage();
   });
 
   it('should display message saying app works', () => {

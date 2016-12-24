@@ -1,8 +1,8 @@
 {
     "project": {
-        "version": "1.0.0-beta.21",
-        "name": "pomegranate-chat-ng2-md-fire"
-    },
+    "version": "1.0.0-beta.24",
+    "name": "coffee-journal-app"
+  },
     "apps": [{
         "root": "src",
         "outDir": "dist",
