@@ -1,14 +1,11 @@
 <header class="header">
     <div class="row">
-        <div class="small-6 medium=2 large-2 columns"></div>
-        <div class="small-12 medium=8 large-8 columns">
+        <div class="small-2 medium=2 large-2 columns"></div>
+        <div class="small-8 medium=8 large-8 columns">
             <a routerLink="/home" routerLinkActive="is-active" class="is-active"><img src="../assets/TPV-TCP-logo-cleaned.svg" alt=""></a>
         </div>
-        <div class="small-6 medium=2 large-2 columns"></div>
+        <div class="small-2 medium=2 large-2 columns"></div>
     </div>
-
-    <router-outlet></router-outlet>
-
     <div class="row">
         <ul class="header-subnav">
             <li><a routerLink="/contact" routerLinkActive="is-active">contact</a></li>
@@ -16,5 +13,47 @@
             <li><a routerLink="/chat" routerLinkActive="is-active">chat</a></li>
         </ul>
     </div>
+    
 
 </header>
+<div class="row">
+        <div class="small-6 medium=2 large-2 columns"></div>
+        <div class="small-12 medium=8 large-8 columns">
+            <router-outlet></router-outlet>
+        </div>
+        <div class="small-6 medium=2 large-2 columns"></div>
+    </div>
+
+    <div class="row">
+        <div class="small-6 medium=2 large-2 columns"></div>
+        <div class="small-12 medium=8 large-8 columns">
+            <img src="../../assets/rafszul.svg" alt=""></div>
+        <div class="small-6 medium=2 large-2 columns"></div>
+    </div>
+
+<footer class="header">
+    <div class="row">
+        <ul class="header-subnav">
+            <li><a routerLink="/contact" routerLinkActive="is-active">
+            <img src="../../assets/rafszul.svg" alt="">
+            </a></li>
+            <li><a routerLink="/home" routerLinkActive="is-active" class="is-active">home</a></li>
+        </ul>
+    </div>
+</footer>
+<div class="header">
+    <div class="row">
+        <div class="small-7 medium=8 large-8 columns align-self-bottom"></div>
+        <div class="small-2 medium=2 large-2 columns align-self-bottom">
+            <h5><small>hacked by:</small></h5>
+            </div>
+        <div class="small-3 medium=2 large-2 columns align-self-bottom">
+        
+          <a routerLink="/home" routerLinkActive="is-active"><img src="../../assets/rafszul.svg" alt="">
+            </a>
+        
+                    
+
+        </div>
+    </div>
+</div>
