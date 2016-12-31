@@ -3,11 +3,11 @@
 
 /* You can add global styles to this file, and also import other style files */
 
-@import './assets/styles/settings';
+@import 'settings';
 
 // vendor
 
-@import '../node_modules/foundation-sites/scss/foundation';
+@import '../../node_modules//foundation-sites/scss/foundation';
 
 @include foundation-everything(true);
 
@@ -15,5 +15,8 @@ body {
     font-family: 'Karla', sans-serif;
     font-weight: 400 700;
     // background-color: #ffffff;
-    background-image: url("/src/assets/export-001/svg/desk-image.svg");
+    background-color:rgb(255, 255, 255);
+background-image:url("./src/assets/export-001/svg/desk-image.svg");
+background-position:center center;
+background-repeat:no-repeat;
 }
