@@ -1,6 +1,9 @@
+@import '../styles/styles.scss';
+@import '../styles/application.scss';
+
 $app-main-font: 'Karla',
 sans-serif;
-$header-bg: #ffffff;
+$header-bg: rgba(255, 255, 255, 0.3);
 $subnav-link-padding: 0.9rem;
 $subnav-font-size: 1rem;
 $subnav-link-opacity: 0.15;
