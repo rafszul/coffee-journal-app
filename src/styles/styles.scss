@@ -12,13 +12,13 @@
 @include foundation-everything(true);
 
 body {
-    background: #000000 url(assets/export-001/svg/desk-image.svg) no-repeat left top;
+    background: #fff url(../assets/export-001/svg/desk-image.svg) no-repeat left top;
     background-size: cover;
 
     font-family: 'Karla', sans-serif;
     font-weight: 400 700;
     // background-color: #ffffff;
-    
+
     // background-color:rgb(255, 255, 255);
     // background-image:url("./src/assets/export-001/svg/desk-image.svg");
     // background-position:center center;
