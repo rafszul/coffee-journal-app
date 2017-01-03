@@ -1,6 +1,30 @@
 @import '../styles/styles.scss';
 @import '../styles/application.scss';
 
+
+// $app-main-font: 'Source Code Pro',
+// monospace;
+// $app-body-height: 7.5rem;
+// $transition: all .35s ease-in-out;
+// $header-bg: #074E68;
+// $subnav-link-padding: 0.9rem;
+// $subnav-font-size: 0.75rem;
+// $subnav-link-opacity: 0.15;
+// $header-height: 3.5rem;
+
+
+
+
+// Default radius for button.
+$button-radius: 50 !default;
+
+// Default fill for button. Is either solid or hollow.
+$button-fill: hollow !default;
+
+// Default font size for button.
+$button-font-size: 1.9rem !default;
+
+
 $app-main-font: 'Karla',
 sans-serif;
 $header-bg: rgba(255, 255, 255, 0.7);

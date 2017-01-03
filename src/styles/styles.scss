@@ -12,8 +12,10 @@
 @include foundation-everything(true);
 
 body {
-    background: #fff url(../assets/export-001/svg/desk-image.svg) no-repeat left top;
-    background-size: cover;
+    background: #fff url(../assets/export-001/svg/desk-image.svg) no-repeat;
+    background-position: center center;
+    background-size: contain;
+
 
     font-family: 'Karla', sans-serif;
     font-weight: 400 700;
