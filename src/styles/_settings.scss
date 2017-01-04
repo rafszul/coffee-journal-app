@@ -40,10 +40,13 @@
 // //  35. Title Bar
 // //  36. Tooltip
 // //  37. Top Bar
+
 @import '../../node_modules//foundation-sites/scss/foundation';
-@import '../../node_modules/foundation-sites/scss/util/util';
+@import '../../node_modules/foundation-sites/scss/util/util'; 
+
 // // 1. Global
 // // ---------
+
 // $global-font-size: 100%;
 // $global-width: rem-calc(1200);
 // $global-lineheight: 1.5;
@@ -71,9 +74,12 @@
 // $global-text-direction: ltr;
 // $global-flexbox: true;
 // $print-transparent-backgrounds: true;
+
 // @include add-foundation-colors;
+
 // // 2. Breakpoints
 // // --------------
+
 // $breakpoints: (
 //   small: 0,
 //   medium: 640px,
@@ -83,8 +89,10 @@
 // );
 // $print-breakpoint: large;
 // $breakpoint-classes: (small medium large);
+
 // // 3. The Grid
 // // -----------
+
 // $grid-row-width: $global-width;
 // $grid-column-count: 12;
 // $grid-column-gutter: (
@@ -93,8 +101,10 @@
 // );
 // $grid-column-align-edge: true;
 // $block-grid-max: 8;
+
 // // 4. Base Typography
 // // ------------------
+
 // $header-font-family: $body-font-family;
 // $header-font-weight: $global-weight-normal;
 // $header-font-style: normal;
@@ -160,8 +170,10 @@
 // $keystroke-padding: rem-calc(2 4 0);
 // $keystroke-radius: $global-radius;
 // $abbr-underline: 1px dotted $black;
+
 // // 5. Typography Helpers
 // // ---------------------
+
 // $lead-font-size: $global-font-size * 1.25;
 // $lead-lineheight: 1.6;
 // $subheader-lineheight: 1.4;
@@ -170,8 +182,10 @@
 // $subheader-margin-top: 0.2rem;
 // $subheader-margin-bottom: 0.5rem;
 // $stat-font-size: 2.5rem;
+
 // // 6. Abide
 // // --------
+
 // $abide-inputs: true;
 // $abide-labels: true;
 // $input-background-invalid: get-color(alert);
@@ -179,8 +193,10 @@
 // $input-error-color: get-color(alert);
 // $input-error-font-size: rem-calc(12);
 // $input-error-font-weight: $global-weight-bold;
+
 // // 7. Accordion
 // // ------------
+
 // $accordion-background: $white;
 // $accordion-plusminus: true;
 // $accordion-title-font-size: rem-calc(12);
@@ -191,13 +207,17 @@
 // $accordion-content-border: 1px solid $light-gray;
 // $accordion-content-color: $body-font-color;
 // $accordion-content-padding: 1rem;
+
 // // 8. Accordion Menu
 // // -----------------
+
 // $accordionmenu-arrows: true;
 // $accordionmenu-arrow-color: $primary-color;
 // $accordionmenu-arrow-size: 6px;
+
 // // 9. Badge
 // // --------
+
 // $badge-background: $primary-color;
 // $badge-color: $white;
 // $badge-color-alt: $black;
@@ -205,8 +225,10 @@
 // $badge-padding: 0.3em;
 // $badge-minwidth: 2.1em;
 // $badge-font-size: 0.6rem;
+
 // // 10. Breadcrumbs
 // // ---------------
+
 // $breadcrumbs-margin: 0 0 $global-margin 0;
 // $breadcrumbs-item-font-size: rem-calc(11);
 // $breadcrumbs-item-color: $primary-color;
@@ -215,8 +237,10 @@
 // $breadcrumbs-item-margin: 0.75rem;
 // $breadcrumbs-item-uppercase: true;
 // $breadcrumbs-item-slash: true;
+
 // // 11. Button
 // // ----------
+
 // $button-padding: 0.85em 1em;
 // $button-margin: 0 0 $global-margin 0;
 // $button-fill: hollow;
@@ -236,15 +260,19 @@
 // $button-background-hover-lightness: -20%;
 // $button-hollow-hover-lightness: -50%;
 // $button-transition: background-color 0.25s ease-out, color 0.25s ease-out;
+
 // // 12. Button Group
 // // ----------------
+
 // $buttongroup-margin: 1rem;
 // $buttongroup-spacing: 1px;
 // $buttongroup-child-selector: '.button';
 // $buttongroup-expand-max: 6;
 // $buttongroup-radius-on-each: true;
+
 // // 13. Callout
 // // -----------
+
 // $callout-background: $white;
 // $callout-background-fade: 85%;
 // $callout-border: 1px solid rgba($black, 0.25);
@@ -254,8 +282,10 @@
 // $callout-font-color-alt: $body-background;
 // $callout-radius: $global-radius;
 // $callout-link-tint: 30%;
+
 // // 14. Card
 // // --------
+
 // $card-background: $white;
 // $card-font-color: $body-font-color;
 // $card-divider-background: $light-gray;
@@ -264,8 +294,10 @@
 // $card-border-radius: $global-radius;
 // $card-padding: $global-padding;
 // $card-margin: $global-margin;
+
 // // 15. Close Button
 // // ----------------
+
 // $closebutton-position: right top;
 // $closebutton-offset-horizontal: (
 //   small: 0.66rem,
@@ -282,15 +314,19 @@
 // $closebutton-lineheight: 1;
 // $closebutton-color: $dark-gray;
 // $closebutton-color-hover: $black;
+
 // // 16. Drilldown
 // // -------------
+
 // $drilldown-transition: transform 0.15s linear;
 // $drilldown-arrows: true;
 // $drilldown-arrow-color: $primary-color;
 // $drilldown-arrow-size: 6px;
 // $drilldown-background: $white;
+
 // // 17. Dropdown
 // // ------------
+
 // $dropdown-padding: 1rem;
 // $dropdown-background: $body-background;
 // $dropdown-border: 1px solid $medium-gray;
@@ -302,16 +338,20 @@
 //   small: 200px,
 //   large: 400px,
 // );
+
 // // 18. Dropdown Menu
 // // -----------------
+
 // $dropdownmenu-arrows: true;
 // $dropdownmenu-arrow-color: $anchor-color;
 // $dropdownmenu-arrow-size: 6px;
 // $dropdownmenu-min-width: 200px;
 // $dropdownmenu-background: $white;
 // $dropdownmenu-border: 1px solid $medium-gray;
+
 // // 19. Forms
 // // ---------
+
 // $fieldset-border: 1px solid $medium-gray;
 // $fieldset-padding: rem-calc(20);
 // $fieldset-margin: rem-calc(18 0);
@@ -348,8 +388,10 @@
 // $input-number-spinners: true;
 // $input-radius: $global-radius;
 // $form-button-radius: $global-radius;
+
 // // 20. Label
 // // ---------
+
 // $label-background: $primary-color;
 // $label-color: $white;
 // $label-color-alt: $black;
@@ -357,13 +399,17 @@
 // $label-font-size: 0.8rem;
 // $label-padding: 0.33333rem 0.5rem;
 // $label-radius: $global-radius;
+
 // // 21. Media Object
 // // ----------------
+
 // $mediaobject-margin-bottom: $global-margin;
 // $mediaobject-section-padding: $global-padding;
 // $mediaobject-image-width-stacked: 100%;
+
 // // 22. Menu
 // // --------
+
 // $menu-margin: 0;
 // $menu-margin-nested: 1rem;
 // $menu-item-padding: 0.7rem 1rem;
@@ -372,16 +418,20 @@
 // $menu-icon-spacing: 0.25rem;
 // $menu-item-background-hover: $light-gray;
 // $menu-border: $light-gray;
+
 // // 23. Meter
 // // ---------
+
 // $meter-height: 1rem;
 // $meter-radius: $global-radius;
 // $meter-background: $medium-gray;
 // $meter-fill-good: $success-color;
 // $meter-fill-medium: $warning-color;
 // $meter-fill-bad: $alert-color;
+
 // // 24. Off-canvas
 // // --------------
+
 // $offcanvas-size: 250px;
 // $offcanvas-vertical-size: 250px;
 // $offcanvas-background: $light-gray;
@@ -394,8 +444,10 @@
 // $offcanvas-fixed-reveal: true;
 // $offcanvas-exit-background: rgba($white, 0.25);
 // $maincontent-class: 'off-canvas-content';
+
 // // 25. Orbit
 // // ---------
+
 // $orbit-bullet-background: $medium-gray;
 // $orbit-bullet-background-active: $dark-gray;
 // $orbit-bullet-diameter: 1.2rem;
@@ -407,8 +459,10 @@
 // $orbit-control-background-hover: rgba($black, 0.5);
 // $orbit-control-padding: 1rem;
 // $orbit-control-zindex: 10;
+
 // // 26. Pagination
 // // --------------
+
 // $pagination-font-size: rem-calc(14);
 // $pagination-margin-bottom: $global-margin;
 // $pagination-item-color: $black;
@@ -423,22 +477,28 @@
 // $pagination-mobile-items: false;
 // $pagination-mobile-current-item: false;
 // $pagination-arrows: true;
+
 // // 27. Progress Bar
 // // ----------------
+
 // $progress-height: 1rem;
 // $progress-background: $medium-gray;
 // $progress-margin-bottom: $global-margin;
 // $progress-meter-background: $primary-color;
 // $progress-radius: $global-radius;
+
 // // 28. Responsive Embed
 // // --------------------
+
 // $responsive-embed-margin-bottom: rem-calc(16);
 // $responsive-embed-ratios: (
 //   default: 4 by 3,
 //   widescreen: 16 by 9,
 // );
+
 // // 29. Reveal
 // // ----------
+
 // $reveal-background: $white;
 // $reveal-width: 600px;
 // $reveal-max-width: $global-width;
@@ -447,8 +507,10 @@
 // $reveal-radius: $global-radius;
 // $reveal-zindex: 1005;
 // $reveal-overlay-background: rgba($black, 0.45);
+
 // // 30. Slider
 // // ----------
+
 // $slider-width-vertical: 0.5rem;
 // $slider-transition: all 0.2s ease-in-out;
 // $slider-height: 0.5rem;
@@ -459,8 +521,10 @@
 // $slider-handle-background: $primary-color;
 // $slider-opacity-disabled: 0.25;
 // $slider-radius: $global-radius;
+
 // // 31. Switch
 // // ----------
+
 // $switch-background: $medium-gray;
 // $switch-background-active: $primary-color;
 // $switch-height: 2rem;
@@ -473,8 +537,10 @@
 // $switch-paddle-offset: 0.25rem;
 // $switch-paddle-radius: $global-radius;
 // $switch-paddle-transition: all 0.25s ease-out;
+
 // // 32. Table
 // // ---------
+
 // $table-background: $white;
 // $table-color-scale: 5%;
 // $table-border: 1px solid smart-scale($table-background, $table-color-scale);
@@ -492,8 +558,10 @@
 // $table-head-font-color: $body-font-color;
 // $table-foot-font-color: $body-font-color;
 // $show-header-for-stacked: false;
+
 // // 33. Tabs
 // // --------
+
 // $tab-margin: 0;
 // $tab-background: $white;
 // $tab-color: $primary-color;
@@ -507,16 +575,20 @@
 // $tab-content-border: $light-gray;
 // $tab-content-color: $body-font-color;
 // $tab-content-padding: 1rem;
+
 // // 34. Thumbnail
 // // -------------
+
 // $thumbnail-border: solid 4px $white;
 // $thumbnail-margin-bottom: $global-margin;
 // $thumbnail-shadow: 0 0 0 1px rgba($black, 0.2);
 // $thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
 // $thumbnail-transition: box-shadow 200ms ease-out;
 // $thumbnail-radius: $global-radius;
+
 // // 35. Title Bar
 // // -------------
+
 // $titlebar-background: $black;
 // $titlebar-color: $white;
 // $titlebar-padding: 0.5rem;
@@ -524,8 +596,10 @@
 // $titlebar-icon-color: $white;
 // $titlebar-icon-color-hover: $medium-gray;
 // $titlebar-icon-spacing: 0.25rem;
+
 // // 36. Tooltip
 // // -----------
+
 // $has-tip-font-weight: $global-weight-bold;
 // $has-tip-border-bottom: dotted 1px $dark-gray;
 // $tooltip-background-color: $black;
@@ -535,30 +609,34 @@
 // $tooltip-pip-width: 0.75rem;
 // $tooltip-pip-height: $tooltip-pip-width * 0.866;
 // $tooltip-radius: $global-radius;
+
 // // 37. Top Bar
 // // -----------
+
 // $topbar-padding: 0.5rem;
 // $topbar-background: $light-gray;
 // $topbar-submenu-background: $topbar-background;
 // $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 // $topbar-input-width: 200px;
 // $topbar-unstack-breakpoint: medium;
+
+
 ////////////////////////////////////// 
 // 
 //////////////////////////////////////
+
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
-$app-main-font: 'Karla',
-sans-serif;
-$header-bg: rgba(255,
-255,
-255,
-0.7);
+
+$app-main-font: 'Karla', sans-serif;
+$header-bg: rgba(255, 255, 255, 0.7);
 $subnav-link-padding: 0.9rem;
 $subnav-font-size: 1rem;
 $subnav-link-opacity: 0.15;
-$header-height: 3.5rem;
 $header-height: 2.5rem;
 $transition: all .35s ease-in-out;
+
+
+
 h1,
 h2,
 h3 {
@@ -582,6 +660,7 @@ h5 {
 
 p {
     font-family: $app-main-font;
+    
 }
 
 .app-body {
@@ -596,3 +675,13 @@ p {
         color: #000000;
     }
 }
+
+
+// Default radius for button.
+$button-radius: 50 !default;
+
+// Default fill for button. Is either solid or hollow.
+$button-fill: hollow !default;
+
+// Default font size for button.
+$button-font-size: 1.9rem !default;
