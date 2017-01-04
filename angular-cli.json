@@ -24,10 +24,9 @@
             "../node_modules/hammerjs/hammer.min.js",
             "../node_modules/foundation-sites/vendor/jquery/dist/jquery.min.js",
             "../node_modules/foundation-sites/dist/js/foundation.min.js",
+            "../node_modules/foundation-sites/js/foundation.util.mediaQuery.js",
             "../node_modules/foundation-sites/js/foundation.sticky.js",
-            "../node_modules/foundation-sites/js/foundation.util.triggers.js",
-            "../node_modules/foundation-sites/js/foundation.util.mediaQuery.js"
-        ],
+            "../node_modules/foundation-sites/js/foundation.util.triggers.js"        ],
         "environments": {
             "source": "environments/environment.ts",
             "dev": "environments/environment.ts",
