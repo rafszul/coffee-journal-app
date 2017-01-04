@@ -1,18 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
-
-/* You can add global styles to this file, and also import other style files */
 
 @import 'settings';
 
 // vendor
 
 @import '../../node_modules//foundation-sites/scss/foundation';
-
 @include foundation-everything(true);
 
 body {
-    background: #fff; 
     background-image: url(../assets/export-001/svg/cleaned/horiz-image-01.svg);
     background-position: center center;
     background-size: cover;
@@ -20,6 +15,6 @@ body {
     background-attachment: fixed;
 
 
-    font-family: 'Karla', sans-serif;
+    font-family: $app-main-font;
     font-weight: 400 700;
 }
