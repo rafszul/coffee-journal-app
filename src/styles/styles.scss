@@ -12,17 +12,14 @@
 @include foundation-everything(true);
 
 body {
-    background: #fff url(../assets/export-001/svg/desk-image.svg) no-repeat;
+    background: #fff; 
+    background-image: url(../assets/export-001/svg/cleaned/horiz-image-01.svg);
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 
 
     font-family: 'Karla', sans-serif;
     font-weight: 400 700;
-    // background-color: #ffffff;
-
-    // background-color:rgb(255, 255, 255);
-    // background-image:url("./src/assets/export-001/svg/desk-image.svg");
-    // background-position:center center;
-    // background-repeat:no-repeat;
 }
