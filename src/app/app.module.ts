@@ -14,6 +14,8 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { LostComponent } from './lost/lost.component';
 import { ChatComponent } from './chat/chat.component';
+import { HeaderComponent } from './shared/header.component';
+import { FooterComponent } from './shared/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ChatComponent } from './chat/chat.component';
     HomeComponent,
     ContactComponent,
     LostComponent,
-    ChatComponent
+    ChatComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
