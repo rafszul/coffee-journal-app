@@ -2126,7 +2126,7 @@ firebase@3.3.0:
     rsvp "3.2.1"
     xmlhttprequest "1.8.0"
 
-firebase@^3.6.3:
+firebase@^3.6.4:
   version "3.6.4"
   resolved "https://registry.yarnpkg.com/firebase/-/firebase-3.6.4.tgz#5c5b91d20f439b6f0a7aebe1b27c2db1a463e308"
   dependencies:
@@ -3917,13 +3917,9 @@ moment@2.x.x:
   version "2.17.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.17.1.tgz#fed9506063f36b10f066c8b59a144d7faebe1d82"
 
-ms@0.7.1:
+ms@0.7.1, ms@^0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
-
-ms@^0.7.1:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
 
 multipipe@^0.1.2:
   version "0.1.2"
