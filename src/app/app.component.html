@@ -1,10 +1,12 @@
 <!-- this is the main header of the app -->
+<app-header></app-header>
+
 <!-- it would make sense to move it to a separate component -->
-<header class="header">
+<!--<header class="header">
   <div class="row">
     <div class="small-2 medium=2 large-2 columns"></div>
     <div class="small-8 medium=8 large-8 columns">
-      <a routerLink="/home" routerLinkActive="is-active" class="is-active"><img src="../assets/header.svg" alt=""></a>
+      <a routerLink="/home" routerLinkActive="is-active" class="is-active"><img src="../assets/header_new-cleaned.svg" alt=""></a>
     </div>
     <div class="small-2 medium=2 large-2 columns"></div>
   </div>
@@ -15,9 +17,10 @@
       <li><a routerLink="/chat" routerLinkActive="is-active">chat</a></li>
     </ul>
   </div>
-</header>
+</header>-->
 <!-- this is the main area of the app with the router-outlet -->
 <div class="app-body">
+  
   <div class="row">
     <div class="small-6 medium=2 large-2 columns"></div>
     <div class="small-12 medium=8 large-8 columns">
@@ -25,6 +28,9 @@
     </div>
     <div class="small-6 medium=2 large-2 columns"></div>
   </div>
+  
+  <!-- this is the galleryon the main page below the router-outlet -->
+  
   <div class="row">
     <div class="small-6 medium=2 large-2 columns"></div>
     <div class="small-12 medium=8 large-8 columns">
@@ -47,29 +53,7 @@
         <button type="button" class="button" data-toggle="offCanvasLeft">Open Menu</button>-->
     </div>
   </div>
-  <!-- this is the main area of the app with the router-outlet -->
-  <!-- this is the main footer of the app -->
-  <!-- it would make sense to move it to a separate component -->
-  <footer class="footer">
-    <div class="row">
-      <ul class="footer-subnav">
-        <li>
-          <a routerLink="/contact" routerLinkActive="is-active">contact
-        </a>
-        </li>
-        <li><a routerLink="/home" routerLinkActive="is-active" class="is-active">home</a></li>
-      </ul>
-    </div>
-  </footer>
-  <!-- this is the "made by footer"" of the app -->
-  <!-- it would make sense to move it to a separate component -->
-  <div class="row">
-    <div class="small-7 medium=8 large-8 columns align-self-bottom"></div>
-    <div class="small-2 medium=2 large-2 columns align-self-bottom">
-      <h5><small>hacked by:</small></h5>
-    </div>
-    <div class="small-3 medium=2 large-2 columns align-self-bottom">
-      <a routerLink="/home" routerLinkActive="is-active"><img src="../../assets/rafszul.svg" alt="">
-      </a>
-    </div>
-  </div>
+  <app-footer></app-footer>
+</div>
+
+ 

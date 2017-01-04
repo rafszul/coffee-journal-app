@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 
+// this is the main scss file! only @import and comments!
+
 // 1.Base
 @import '_base/config',
         '_base/presets',
@@ -11,3 +13,5 @@
 
 // 3.Modules
 @import '_modules/m-accordions';
+@import '_modules/m-header.scss';
+@import '_modules/m-footer.scss';
