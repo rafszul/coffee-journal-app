@@ -1,28 +1,27 @@
-<!--<div class="app-body">-->
-  <div class="row">
-    <!--<div class="small-6 medium-2 large-2 columns">
-    </div>-->
+<div class="row">
     <div class="column">
-      <div class="callout clearfix">
-        <a class="button float-left">right</a>
-      </div>
-      <div>
-        <img src="../../assets/rafszul.svg" alt="">
-      </div>
-      <a class="button float-right">
-          <a class="expanded large button" routerLink="/contact" routerLinkActive="is-active">get in touch!
-            <img src="../../assets/TPV-TCP-logo-cleaned.svg" alt="">
-            </a></a>
 
-      
+        <!-- this is chat log in/out section -->
+
+        <div class="callout clearfix">
+            <a class="button float-left" (click)="login()" *ngIf="!name">login</a>
+            <a class="button float-right" (click)="logout()" href="chat">logout</a>
+        </div>
+
+        <!-- chat log in/out section ends here -->
+
+        <!-- this is chat msg section -->
+
+        <div class="chat-container" *ngFor="let item of items | async">
+            <a href="#">{{item.name}}</a>
+
+            <p>{{item.message}}</p>
+        </div>
+
+        <div class="chat-container">
+
+            <input type="text" id="message" *ngIf="name" placeholder="chat here..." (keyup.enter)="chatSend($event.target.value)" [(ngModel)]="msgVal" />
+
+        </div>
     </div>
-    <!--<div class="small-6 medium-2 large-2 columns">
-    </div>-->
-  </div>
-  <div class="row">
-    <div class="callout clearfix">
-      <a class="button float-left">Left</a>
-      <a class="button float-right">Right</a>
-    </div>
-  </div>
-<!--</div>-->
+</div>
