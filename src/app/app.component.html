@@ -1,26 +1,6 @@
 <!-- this is the main header of the app -->
 <app-header></app-header>
-
-<!-- it would make sense to move it to a separate component -->
-<!--<header class="header">
-  <div class="row">
-    <div class="small-2 medium=2 large-2 columns"></div>
-    <div class="small-8 medium=8 large-8 columns">
-      <a routerLink="/home" routerLinkActive="is-active" class="is-active"><img src="../assets/header_new-cleaned.svg" alt=""></a>
-    </div>
-    <div class="small-2 medium=2 large-2 columns"></div>
-  </div>
-  <div class="row">
-    <ul class="header-subnav">
-      <li><a routerLink="/contact" routerLinkActive="is-active">contact</a></li>
-      <li><a routerLink="/home" routerLinkActive="is-active" class="is-active">home</a></li>
-      <li><a routerLink="/chat" routerLinkActive="is-active">chat</a></li>
-    </ul>
-  </div>
-</header>-->
-<!-- this is the main area of the app with the router-outlet -->
 <div class="app-body">
-
     <div class="row">
         <div class="small-6 medium=2 large-2 columns"></div>
         <div class="small-12 medium=8 large-8 columns">
@@ -28,30 +8,5 @@
         </div>
         <div class="small-6 medium=2 large-2 columns"></div>
     </div>
-
-    <!-- this is the galleryon the main page below the router-outlet -->
-
-    <div class="row">
-        <div class="small-6 medium=2 large-2 columns"></div>
-        <div class="small-12 medium=8 large-8 columns">
-            <!--<img src="../../assets/rafszul.svg" alt="">-->
-            <div class="row align-center">
-                <div class="small-4 columns">
-                    <img class="thumbnail" src="assets/export-001/png/sq-image-01.png" alt="Photo of Uranus.">
-                </div>
-                <div class="small-4 columns">
-                    <img class="thumbnail" src="assets/export-001/png/sq-image-02.png" alt="Photo of Neptune.">
-                </div>
-                <div class="small-4 columns">
-                    <img class="thumbnail" src="assets/export-001/png/sq-image-03.png" alt="Photo of Pluto.">
-                </div>
-            </div>
-        </div>
-        <div class="small-6 medium=2 large-2 columns">
-            <!-- off canvas menu btn. add path to foundation6 javascript url in angular-cli.json under scripts. the file in ../node-modules/foundatio6/..
-            
-        <button type="button" class="button" data-toggle="offCanvasLeft">Open Menu</button>-->
-        </div>
-    </div>
-    <app-footer></app-footer>
 </div>
+<app-footer></app-footer>
