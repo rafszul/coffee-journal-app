@@ -1,8 +1,8 @@
 {
     "project": {
-    "version": "1.0.0-beta.24",
-    "name": "coffee-journal-app"
-  },
+        "version": "1.0.0-beta.24",
+        "name": "coffee-journal-app"
+    },
     "apps": [{
         "root": "src",
         "outDir": "dist",
@@ -18,7 +18,7 @@
         "mobile": false,
         "styles": [
             "../node_modules/foundation-sites/dist/css/foundation-flex.css",
-            "styles/styles.scss"
+            "styles/application.scss"
         ],
         "scripts": [
             "../node_modules/hammerjs/hammer.min.js",
@@ -26,7 +26,8 @@
             "../node_modules/foundation-sites/dist/js/foundation.min.js",
             "../node_modules/foundation-sites/js/foundation.util.mediaQuery.js",
             "../node_modules/foundation-sites/js/foundation.sticky.js",
-            "../node_modules/foundation-sites/js/foundation.util.triggers.js"        ],
+            "../node_modules/foundation-sites/js/foundation.util.triggers.js"
+        ],
         "environments": {
             "source": "environments/environment.ts",
             "dev": "environments/environment.ts",

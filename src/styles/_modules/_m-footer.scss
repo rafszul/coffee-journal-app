@@ -1,6 +1,4 @@
-@import '../app.component';
-
-.footer  {
+.header {
     text-align: center;
     background: $header-bg;
     background-size: cover;
@@ -13,7 +11,7 @@
     }
 }
 
-.footer-subnav {
+.header-subnav {
     float: none;
     position: absolute;
     text-align: center;
