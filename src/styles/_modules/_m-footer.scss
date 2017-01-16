@@ -5,7 +5,7 @@
     position: relative;
     overflow: visible;
     padding-top: $header-height;
-    // padding-bottom: $header-height + ($subnav-link-padding * 2 + $subnav-font-size - 0.15rem);
+    padding-bottom: $header-height + ($subnav-link-padding * 2 + $subnav-font-size - 0.15rem);
     .headline {
         color: #000000;
     }
